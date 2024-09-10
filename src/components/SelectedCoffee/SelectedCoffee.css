@@ -1,0 +1,21 @@
+.selected-coffee-wrapper{
+    width: 500px;
+    margin: auto;
+
+}
+.selected-coffee-img-container{
+    text-align: center;
+}
+
+.selected-coffee-img-container img{
+    max-width: 500px;
+}
+
+.selected-coffee-description-container{
+    border-radius: 6px;
+    background-color: antiquewhite;
+    padding: 5px 10px;
+}
+.ingredient-list-container{
+    padding: 5px 0 20px ;
+}
