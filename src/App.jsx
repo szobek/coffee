@@ -18,7 +18,6 @@ function App() {
     <div className="coffee-list-container">
       <CoffeeList handleSelectCoffeeMethod={handleSelectCoffee} coffees={COFFEES} />
     </div>
-    <hr />
     {(selectedCoffee != null) ? <SelectedCoffee coffee={selectedCoffee} /> : ''}
 
   </>);
