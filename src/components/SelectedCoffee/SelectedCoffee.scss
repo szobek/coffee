@@ -5,10 +5,10 @@
 }
 .selected-coffee-img-container{
     text-align: center;
-}
+    img{
 
-.selected-coffee-img-container img{
-    max-width: 500px;
+        max-width: 200px;
+    }
 }
 
 .selected-coffee-description-container{
@@ -18,4 +18,8 @@
 }
 .ingredient-list-container{
     padding: 5px 0 20px ;
+    list-style-type: circle;
+    padding: 6px 12px;
+    background-color: rgb(241, 234, 224);
+    border-radius: 5px;
 }
