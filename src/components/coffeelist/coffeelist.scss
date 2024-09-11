@@ -1,0 +1,29 @@
+@import "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
+
+.coffeelist-wrapper {
+    width: 800px;
+    margin: auto;
+
+    .coffeelist {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .coffeelist-item {
+        list-style-type: none;
+
+        button {
+            border-radius: 12px;
+            background-color: rgb(128, 177, 206);
+            border: 0;
+            padding: 3px 15px;
+            cursor: pointer;
+            color: whitesmoke;
+            font-weight: 700;
+            font-family: "Inria Sans", sans-serif;
+            font-style: italic;
+        }
+    }
+
+}

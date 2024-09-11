@@ -1,4 +1,4 @@
-import './coffeelist.css'
+import './coffeelist.scss'
 export default function CoffeeList({ coffees, handleSelectCoffeeMethod }) {
   return (
     <div className="coffeelist-wrapper">
